@@ -41,3 +41,7 @@ renameat2(
 This library was largely inspired by
 [python-renameat2](https://github.com/jordemort/python-renameat2), which seems
 unmaintained. Also, it does not easily build with Nix.
+
+## License
+
+This project is provided under the [GNU General Public License v3](./LICENSE).
