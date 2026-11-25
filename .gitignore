@@ -1,2 +1,6 @@
+__pycache__/
 .ruff_cache/
+*.c
+*.o
+*.so
 result
