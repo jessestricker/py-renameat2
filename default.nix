@@ -22,6 +22,9 @@ python3Packages.buildPythonPackage {
   dependencies = with python3Packages; [
     cffi
   ];
+  nativeCheckInputs = with python3Packages; [
+    pytestCheckHook
+  ];
 
   pythonImportsCheck = [ "renameat2" ];
 }
